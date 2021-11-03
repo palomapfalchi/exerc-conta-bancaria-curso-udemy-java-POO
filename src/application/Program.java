@@ -32,11 +32,11 @@ public class Program {
         int numeroDaConta = scan.nextInt();
         System.out.print("Digite o nome do titular da conta: ");
         String nomeDoTitular = scan.next();
-        System.out.print("Será feito um deposíto inicial? (s/n)");
-        char resposta = scan.next().charAt(0);
+                        System.out.print("Será feito um deposíto inicial? (s/n)");
+                        char resposta = scan.next().charAt(0);
 
 
-        if (resposta == 's') {
+                        if (resposta == 's') {
             System.out.print("Digite o valor do depósito inicial: ");
             double depositoInicial = scan.nextDouble();
             user = new User(nomeDoTitular, depositoInicial, numeroDaConta);
